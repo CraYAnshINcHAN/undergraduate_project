@@ -1,0 +1,67 @@
+# Poetry pyproject.toml: https://python-poetry.org/docs/pyproject/
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "magneto_pyelastica"
+version = "0.0.1.post2"
+description = "Python software for simulating magnetic Cosserat rods."
+readme = "README.md"
+authors = ["Arman Tekinalp <armant2@illinois.edu>", "Yashraj Bhosale <bhosale2@illinois.edu>"]
+license = "MIT"
+repository = "https://github.com/armantekinalp/MagnetoPyElastica"
+#documentation = "https://miv-os.readthedocs.io"
+keywords = ["python", "simulation", "elastica", "cosserat-rod", "magneto-elastodynamics"]
+
+# ...
+packages = [
+    { include = "magneto_pyelastica" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+pyelastica = "^0.3"
+matplotlib = {version = "^3.3.2", optional = true}
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+pytest = "^7.1.2"
+coverage = "^6.3.3"
+pytest-html = "^3.1.1"
+pytest-cov = "^3.0.0"
+flake8 = "^3.8"
+pre-commit = "^2.19.0"
+autoflake8 = "^0.3"
+
+[tool.poetry.extras]
+examples = [
+  "matplotlib",
+]
+
+[tool.black]
+# https://github.com/psf/black
+target-version = ["py38"]
+line-length = 88
+color = true
+
+exclude = '''
+/(
+    \.git
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+    | env
+    | venv
+)/
+'''
+
+[tool.pytest.ini_options]
+# https://docs.pytest.org/en/6.2.x/customize.html#pyproject-toml
+# Directories that are not visited by pytest collector:
+norecursedirs =["hooks", "*.egg", ".eggs", "dist", "build", "docs", ".tox", ".git", "__pycache__"]

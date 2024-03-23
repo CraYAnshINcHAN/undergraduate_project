@@ -1,0 +1,13 @@
+{
+  "name": "undergraduate_project",
+  "dockerFile": "../Dockerfile",
+  "settings": { 
+      "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+      "ms-python.python"
+  ],
+  "forwardPorts": [],
+  "postCreateCommand": "echo 'Dev container setup completed.'",
+  "remoteUser": "root"
+}

@@ -1,0 +1,18 @@
+TY  - JOUR
+T1  - Mechanics of hard-magnetic soft materials
+AU  - Zhao, Ruike
+AU  - Kim, Yoonho
+AU  - Chester, Shawn A.
+AU  - Sharma, Pradeep
+AU  - Zhao, Xuanhe
+JO  - Journal of the Mechanics and Physics of Solids
+VL  - 124
+SP  - 244
+EP  - 263
+PY  - 2019
+DA  - 2019/03/01/
+SN  - 0022-5096
+DO  - https://doi.org/10.1016/j.jmps.2018.10.008
+UR  - https://www.sciencedirect.com/science/article/pii/S0022509618307646
+AB  - Soft materials that can undergo rapid and large deformation through the remote and wireless action of external stimuli offer a range of tantalizing applications such as soft robots, flexible electronics, and biomedical devices. A natural and simple embodiment of such materials is to embed magnetic particles in soft polymers. Unfortunately, existing magnetically responsive soft materials such as magnetorheological elastomers and ferrogels typically use magnetically-soft particles such as iron and iron oxides, which are characterized by the low coercivity and hence lack the capability to retain remnant magnetism. Accordingly, their deformation is limited to simple elongation or shortening, rendering these materials substantially unsuited for the complex transformations required in many applications. To introduce shape-programmability, magnetically-hard particles with high coercivity have been incorporated in mechanically soft materials. In addition, recent works aimed at ameliorating this situation have developed fabrication techniques and facile routes to engineer rapid and complex transformations in a programmable manner by introducing intricate patterns of magnetic polarities in soft materials. The resulting structures, when properly designed, have been shown to exhibit a diverse and rich array of actuation behavior. In this work, we develop a suitable theoretical framework to analyze these so-called hard-magnetic soft materials to facilitate the rational design of magnetically activated functional structures and devices based on a quantitative prediction of complex shape changes. We adopt a nonlinear field theory to describe the finite deformation coupled with magnetic fields and argue that the macroscopic behavior of the fabricated materials requires a new constitutive classification — ideal hard-magnetic soft material — which assumes that (i) the material has a residual magnetic flux density, and (ii) the induced magnetic flux density exhibits a linear relation with the applied actuating magnetic field. We implement the theory and constitutive law in a finite-element framework and find remarkable agreement between the simulation and experimental results on various deformation modes of hard-magnetic soft materials. Using the developed (and validated) model, we present a set of illustrative examples to highlight the use of our model-based simulation to guide the design of experimentally realizable complex shape-morphing structures based on hard-magnetic soft materials.
+ER  - 
